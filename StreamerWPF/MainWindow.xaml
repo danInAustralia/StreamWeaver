@@ -1,0 +1,21 @@
+﻿<Window x:Class="StreamerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stream Weaver" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Click="StartClicked">Server</Button>
+        <Button Grid.Row="1" Click="ClientClicked">Client</Button>
+        <Button Grid.Row="2" Click="MicPlayback">Mic Playback</Button>
+
+    </Grid>
+</Window>
